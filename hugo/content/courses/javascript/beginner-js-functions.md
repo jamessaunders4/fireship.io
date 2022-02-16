@@ -117,7 +117,7 @@ const makeWine = (qty) => '🍷'.repeat(qty);
 
 ## Pure Functions
 
-A *pure* function is one that only relies only its inputs, produces no side effects, and does not modify values outside its local scope. 
+A *pure* function is one that only relies on its inputs, produces no side effects, and does not modify values outside its local scope. 
 
 Notice how the impure function below mutates a global variable and uses it to calculate the return value. In other words, it depends on values outside of its own function parameters and/or body. 
 
